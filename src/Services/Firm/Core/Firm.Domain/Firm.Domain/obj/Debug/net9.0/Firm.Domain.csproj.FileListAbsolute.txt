@@ -1,0 +1,16 @@
+D:\Projects\BuildMix_ERP\BuildMix_ERP\src\Services\Firm\Core\Firm.Domain\Firm.Domain\bin\Debug\net9.0\Firm.Domain.deps.json
+D:\Projects\BuildMix_ERP\BuildMix_ERP\src\Services\Firm\Core\Firm.Domain\Firm.Domain\bin\Debug\net9.0\Firm.Domain.dll
+D:\Projects\BuildMix_ERP\BuildMix_ERP\src\Services\Firm\Core\Firm.Domain\Firm.Domain\bin\Debug\net9.0\Firm.Domain.pdb
+D:\Projects\BuildMix_ERP\BuildMix_ERP\src\Services\Firm\Core\Firm.Domain\Firm.Domain\bin\Debug\net9.0\Shared.dll
+D:\Projects\BuildMix_ERP\BuildMix_ERP\src\Services\Firm\Core\Firm.Domain\Firm.Domain\bin\Debug\net9.0\Shared.pdb
+D:\Projects\BuildMix_ERP\BuildMix_ERP\src\Services\Firm\Core\Firm.Domain\Firm.Domain\obj\Debug\net9.0\Firm.Domain.csproj.AssemblyReference.cache
+D:\Projects\BuildMix_ERP\BuildMix_ERP\src\Services\Firm\Core\Firm.Domain\Firm.Domain\obj\Debug\net9.0\Firm.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\BuildMix_ERP\BuildMix_ERP\src\Services\Firm\Core\Firm.Domain\Firm.Domain\obj\Debug\net9.0\Firm.Domain.AssemblyInfoInputs.cache
+D:\Projects\BuildMix_ERP\BuildMix_ERP\src\Services\Firm\Core\Firm.Domain\Firm.Domain\obj\Debug\net9.0\Firm.Domain.AssemblyInfo.cs
+D:\Projects\BuildMix_ERP\BuildMix_ERP\src\Services\Firm\Core\Firm.Domain\Firm.Domain\obj\Debug\net9.0\Firm.Domain.csproj.CoreCompileInputs.cache
+D:\Projects\BuildMix_ERP\BuildMix_ERP\src\Services\Firm\Core\Firm.Domain\Firm.Domain\obj\Debug\net9.0\Firm.Domain.sourcelink.json
+D:\Projects\BuildMix_ERP\BuildMix_ERP\src\Services\Firm\Core\Firm.Domain\Firm.Domain\obj\Debug\net9.0\Firm.Dom.BAAD4C3B.Up2Date
+D:\Projects\BuildMix_ERP\BuildMix_ERP\src\Services\Firm\Core\Firm.Domain\Firm.Domain\obj\Debug\net9.0\Firm.Domain.dll
+D:\Projects\BuildMix_ERP\BuildMix_ERP\src\Services\Firm\Core\Firm.Domain\Firm.Domain\obj\Debug\net9.0\refint\Firm.Domain.dll
+D:\Projects\BuildMix_ERP\BuildMix_ERP\src\Services\Firm\Core\Firm.Domain\Firm.Domain\obj\Debug\net9.0\Firm.Domain.pdb
+D:\Projects\BuildMix_ERP\BuildMix_ERP\src\Services\Firm\Core\Firm.Domain\Firm.Domain\obj\Debug\net9.0\ref\Firm.Domain.dll

@@ -5,6 +5,7 @@ namespace Firm.Domain.Entities.Vehicle
 {
     public class Truck:BaseEntity
     {
+        //Title
         public string Title { get; set; }
         public TruckType TruckType { get; set; }
         public string Plate { get; set; }

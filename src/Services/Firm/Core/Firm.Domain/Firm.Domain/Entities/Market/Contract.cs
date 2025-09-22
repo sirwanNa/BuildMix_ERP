@@ -3,14 +3,25 @@ using Shared.Enums.Firm.Market;
 
 namespace Firm.Domain.Entities.Market
 {
+    /// <summary>
+    /// قرارداد
+    /// </summary>
     public class Contract:BaseEntity
     {
+
         public ContractType ContractType { get; set; }
+        /// <summary>
+        /// تاریخ و ساعت
+        /// </summary>
         public DateTime Date { get; set; }
-        public Guid PersonId { get; set; }
-        public virtual Person? Person { get; set; }
-        public Guid CompanyId { get; set; }
-        public virtual Person? Company { get; set; }
+        /// <summary>
+        /// کارخانه
+        /// </summary>
+        public Guid FactoryId { get; set; }
+        public virtual Person? Factory { get; set; }
+        /// <summary>
+        /// کد موقعیت طرف قرارداد
+        /// </summary>
         public Guid PersonAddressId { get; set; }
         public virtual PersonAddress? PersonAddress { get; set; }   
     }

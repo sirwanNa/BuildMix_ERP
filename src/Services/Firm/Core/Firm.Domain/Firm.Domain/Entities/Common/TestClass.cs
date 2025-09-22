@@ -12,8 +12,6 @@ namespace Firm.Domain.Entities.Common
         public TestClass (int a)
             {
             Unit a = new Unit();
-            per
-            a.
-            }
+           a.
     }
 }

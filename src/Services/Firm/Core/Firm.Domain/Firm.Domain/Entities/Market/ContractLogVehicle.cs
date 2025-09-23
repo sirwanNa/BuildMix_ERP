@@ -12,10 +12,10 @@ namespace Firm.Domain.Entities.Market
         /// </summary>
         public float FullWeight { get; set; }
         /// <summary>
-        /// کد لاگ قرارداد
+        /// کد بند قرارداد
         /// </summary>
-        public Guid ContractLogId { get; set; }
-        public virtual ContractLog? ContractLog { get; set; }
+        public Guid ContractDetailsId { get; set; }
+        public virtual ContractDetails? ContractDetails { get; set; }
         /// <summary>
         /// ماشین
         /// </summary>

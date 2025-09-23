@@ -1,4 +1,5 @@
 ﻿using Firm.Domain.Entities.Commodity;
+using Shared.Entities;
 
 namespace Firm.Domain.Entities.Market
 {

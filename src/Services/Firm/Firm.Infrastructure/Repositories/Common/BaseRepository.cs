@@ -2,6 +2,7 @@
 using Firm.Application.Interfaces.IData;
 using Firm.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
+using Shared.Entities;
 
 namespace Firm.Infrastructure.Repositories.Common
 {

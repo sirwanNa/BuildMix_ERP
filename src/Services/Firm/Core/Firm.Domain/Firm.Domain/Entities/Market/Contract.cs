@@ -1,4 +1,5 @@
 ﻿using Firm.Domain.Entities.Staff;
+using Shared.Entities;
 using Shared.Enums.Firm.Market;
 
 namespace Firm.Domain.Entities.Market

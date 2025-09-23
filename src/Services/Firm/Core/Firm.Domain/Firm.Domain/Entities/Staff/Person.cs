@@ -1,4 +1,6 @@
-﻿namespace Firm.Domain.Entities.Staff
+﻿using Shared.Entities;
+
+namespace Firm.Domain.Entities.Staff
 {
     /// <summary>
     /// اشخاص شامل راننده مالک ماشین آلات مشتریان فروشندگان کارخانه

@@ -1,4 +1,5 @@
-﻿using Shared.Enums.Firm.Vehicle;
+﻿using Shared.Entities;
+using Shared.Enums.Firm.Vehicle;
 
 namespace Firm.Domain.Entities.Market
 {

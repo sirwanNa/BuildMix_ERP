@@ -1,4 +1,5 @@
-﻿using Shared.Enums.Firm.Staff;
+﻿using Shared.Entities;
+using Shared.Enums.Firm.Staff;
 
 namespace Firm.Domain.Entities.Staff
 {

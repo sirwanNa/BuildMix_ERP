@@ -1,4 +1,6 @@
-﻿namespace Firm.Domain.Entities.Commodity
+﻿using Shared.Entities;
+
+namespace Firm.Domain.Entities.Commodity
 {
     /// <summary>
     /// مواد اولیه تشکیل دهنده محصولات

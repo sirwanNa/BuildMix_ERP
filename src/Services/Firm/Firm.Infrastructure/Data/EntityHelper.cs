@@ -1,6 +1,7 @@
 ﻿using System.Reflection;
 using Firm.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
+using Shared.Entities;
 
 namespace Firm.Infrastructure.Data
 {

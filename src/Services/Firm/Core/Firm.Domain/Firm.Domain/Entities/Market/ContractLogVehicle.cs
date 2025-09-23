@@ -1,4 +1,5 @@
 ﻿using Firm.Domain.Entities.Vehicle;
+using Shared.Entities;
 
 namespace Firm.Domain.Entities.Market
 {

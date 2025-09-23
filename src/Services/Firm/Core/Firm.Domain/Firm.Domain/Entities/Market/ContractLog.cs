@@ -1,4 +1,6 @@
-﻿namespace Firm.Domain.Entities.Market
+﻿using Shared.Entities;
+
+namespace Firm.Domain.Entities.Market
 {
     /// <summary>
     /// لاگهای قرارداد

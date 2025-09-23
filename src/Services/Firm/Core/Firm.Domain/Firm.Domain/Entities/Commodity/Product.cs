@@ -20,5 +20,7 @@ namespace Firm.Domain.Entities.Commodity
         /// واحد اندازه گیری
         /// </summary>
         public virtual Unit? Unit { get; set; }
+        public virtual ICollection<Material>? MainMaterials { get; set; }
+        public virtual ICollection<Material>? SubMaterials { get; set; }
     }
 }

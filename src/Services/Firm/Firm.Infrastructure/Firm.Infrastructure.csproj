@@ -7,7 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Configurations\" />
+    <Folder Include="Configurations\Common\" />
+    <Folder Include="Configurations\Market\" />
+    <Folder Include="Configurations\Vehicle\" />
+    <Folder Include="Configurations\Staff\" />
   </ItemGroup>
 
   <ItemGroup>

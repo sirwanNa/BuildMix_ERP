@@ -10,7 +10,7 @@ namespace Firm.Domain.Entities.Common
         /// <summary>
         /// عنوان واحد
         /// </summary>
-        public string Title { get; set; }
+        public required string Title { get; set; }
         /// <summary>
         /// شناسه واحد والد
         /// </summary>

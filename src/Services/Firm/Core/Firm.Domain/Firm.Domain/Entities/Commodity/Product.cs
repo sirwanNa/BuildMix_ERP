@@ -10,7 +10,7 @@ namespace Firm.Domain.Entities.Commodity
         /// <summary>
         /// عنوان محصول
         /// </summary>
-        public string Title { get; set; }
+        public required string Title { get; set; }
         /// <summary>
         /// کد واحد اندازه گیری
         /// </summary>

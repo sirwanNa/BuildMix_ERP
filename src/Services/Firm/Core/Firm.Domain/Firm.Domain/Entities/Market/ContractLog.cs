@@ -9,10 +9,10 @@
         /// تاریخ و ساعت
         /// </summary>
         public DateTime Date { get; set; }
-        public Guid ContractDetailsId { get; set; }
         /// <summary>
         /// بند قرارداد
         /// </summary>
+        public Guid ContractDetailsId { get; set; }
         public virtual ContractDetails? ContractDetails { get; set; }
     }
 }

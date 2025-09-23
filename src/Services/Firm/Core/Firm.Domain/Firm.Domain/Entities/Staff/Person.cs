@@ -8,11 +8,19 @@
         /// <summary>
         /// نانم شرکت/نام کوچک
         /// </summary>
-        public string FirstName { get; set; }
+        public required string FirstName { get; set; }
         /// <summary>
         /// نام خانوادگی
         /// </summary>
-        public string LastName { get; set; }
+        public string? LastName { get; set; }
+        /// <summary>
+        /// تلفن
+        /// </summary>
+        public string? Phone {  get; set; }
+        /// <summary>
+        /// آدرس
+        /// </summary>
+        public string? Address {  get; set; }
         /// <summary>
         /// شناسه والد شخص
         /// </summary>
@@ -21,13 +29,5 @@
         /// شخص والد
         /// </summary>
         public virtual Person? Parent { get; set; }
-        /// <summary>
-        /// تلفن
-        /// </summary>
-        public string Phone {  get; set; }
-        /// <summary>
-        /// آدرس
-        /// </summary>
-        public string Address {  get; set; }
     }
 }

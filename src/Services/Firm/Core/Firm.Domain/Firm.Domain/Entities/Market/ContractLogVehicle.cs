@@ -8,6 +8,10 @@ namespace Firm.Domain.Entities.Market
     public class ContractLogVehicle:BaseEntity
     {
         /// <summary>
+        /// وزن پر
+        /// </summary>
+        public float FullWeight { get; set; }
+        /// <summary>
         /// کد لاگ قرارداد
         /// </summary>
         public Guid ContractLogId { get; set; }
@@ -17,9 +21,6 @@ namespace Firm.Domain.Entities.Market
         /// </summary>
         public Guid TruckId { get; set; }
         public virtual Truck? Truck { get; set; }
-        /// <summary>
-        /// وزن پر
-        /// </summary>
-        public float FullWeight { get; set; }
+
     }
 }

@@ -8,6 +8,14 @@ namespace Firm.Domain.Entities.Market
     public class ContractDetails : BaseEntity
     {
         /// <summary>
+        /// بهای واحد
+        /// </summary>
+        public int QTY_Price { get; set; }
+        /// <summary>
+        /// حجم کل قرارداد
+        /// </summary>
+        public float Total { get; set; }
+        /// <summary>
         /// کد قرارداد
         /// </summary>
         public Guid ContractId { get; set; }
@@ -17,13 +25,6 @@ namespace Firm.Domain.Entities.Market
         /// </summary>
         public Guid ProductId { get; set; }
         public virtual Product? Product{get; set; }
-        /// <summary>
-        /// بهای واحد
-        /// </summary>
-        public int QTY_Price { get; set; }
-        /// <summary>
-        /// حجم کل قرارداد
-        /// </summary>
-        public float Total { get; set; }
+
     }
 }

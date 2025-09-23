@@ -8,7 +8,9 @@ namespace Firm.Domain.Entities.Market
     /// </summary>
     public class Contract:BaseEntity
     {
-
+        /// <summary>
+        /// نوع قرارداد
+        /// </summary>
         public ContractType ContractType { get; set; }
         /// <summary>
         /// تاریخ و ساعت
@@ -23,6 +25,6 @@ namespace Firm.Domain.Entities.Market
         /// کد موقعیت طرف قرارداد
         /// </summary>
         public Guid PersonAddressId { get; set; }
-        public virtual PersonAddress? PersonAddress { get; set; }   
+        public virtual PersonLocation? PersonAddress { get; set; }   
     }
 }

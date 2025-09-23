@@ -3,12 +3,12 @@
     /// <summary>
     /// موقعیت های اشخاص
     /// </summary>
-    public class PersonAddress:BaseEntity
+    public class PersonLocation:BaseEntity
     {
         /// <summary>
         /// نام موقعیت
         /// </summary>
-        public string Location { get; set; }
+        public required string Address { get; set; }
         /// <summary>
         /// فاصله به کیلومتر
         /// </summary>
@@ -20,7 +20,7 @@
         /// <summary>
         /// شخص
         /// </summary>
-        public virtual Person? Person { get; set; }
+        public virtual Person? Person { get; set; } 
         
     }
 }

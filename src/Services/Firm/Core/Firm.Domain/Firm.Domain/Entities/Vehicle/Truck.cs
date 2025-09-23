@@ -11,12 +11,12 @@ namespace Firm.Domain.Entities.Vehicle
         /// <summary>
         /// عنوان ماشین
         /// </summary>
-        public string Title { get; set; }
+        public required string Title { get; set; }
         public TruckType TruckType { get; set; }
         /// <summary>
         /// پلاک
         /// </summary>
-        public string Plate { get; set; }
+        public string? Plate { get; set; }
         /// <summary>
         /// وزن خالی
         /// </summary>

@@ -1,4 +1,5 @@
 ﻿using Firm.Domain.Entities.Common;
+using Firm.Domain.Entities.Market;
 using Shared.Entities;
 
 namespace Firm.Domain.Entities.Commodity
@@ -22,5 +23,6 @@ namespace Firm.Domain.Entities.Commodity
         public virtual Unit? Unit { get; set; }
         public virtual ICollection<Material>? MainMaterials { get; set; }
         public virtual ICollection<Material>? SubMaterials { get; set; }
+        public virtual ICollection<ContractDetails>? ContractDetailsList { get; set; }
     }
 }

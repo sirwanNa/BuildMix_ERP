@@ -25,7 +25,8 @@ namespace Firm.Domain.Entities.Market
         /// کد محصول
         /// </summary>
         public Guid ProductId { get; set; }
-        public virtual Product? Product{get; set; }
+        public virtual Product? Product{get; set; } 
+        public virtual ICollection<ContractLogVehicle>? ContractLogVehicles { get; set; }
 
     }
 }

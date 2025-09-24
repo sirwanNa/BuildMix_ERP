@@ -1,4 +1,5 @@
-﻿using Shared.Entities;
+﻿using Firm.Domain.Entities.Market;
+using Shared.Entities;
 
 namespace Firm.Domain.Entities.Staff
 {
@@ -22,7 +23,8 @@ namespace Firm.Domain.Entities.Staff
         /// <summary>
         /// شخص
         /// </summary>
-        public virtual Person? Person { get; set; } 
-        
+        public virtual Person? Person { get; set; }
+        public virtual ICollection<Contract>? Contracts { get; set; }
+
     }
 }

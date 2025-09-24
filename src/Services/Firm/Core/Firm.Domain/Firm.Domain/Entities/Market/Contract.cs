@@ -27,5 +27,7 @@ namespace Firm.Domain.Entities.Market
         /// </summary>
         public Guid PersonAddressId { get; set; }
         public virtual PersonLocation? PersonAddress { get; set; }   
+        public virtual ICollection<ContractDetails>? ContractDetailsList { get; set; }
+        public virtual ICollection<ContractService>? ContractServicesList { get; set; }
     }
 }

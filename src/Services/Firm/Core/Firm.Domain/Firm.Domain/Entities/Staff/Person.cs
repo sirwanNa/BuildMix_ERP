@@ -1,4 +1,5 @@
-﻿using Shared.Entities;
+﻿using Firm.Domain.Entities.Market;
+using Shared.Entities;
 
 namespace Firm.Domain.Entities.Staff
 {
@@ -31,5 +32,6 @@ namespace Firm.Domain.Entities.Staff
         /// شخص والد
         /// </summary>
         public virtual Person? Parent { get; set; }
+        public virtual ICollection<Contract>? Contracts { get; set; }
     }
 }

@@ -1,4 +1,4 @@
-﻿using Firm.Domain.Entities.Staff;
+﻿using Firm.Domain.Entities.Commodity;
 using Shared.Entities;
 
 namespace Firm.Domain.Entities.Common
@@ -24,6 +24,8 @@ namespace Firm.Domain.Entities.Common
         /// ضریب تبدیل واحد
         /// </summary>
         public float Conversion { get; set; }
+        public virtual ICollection<Product>? Products { get; set; } 
+        public virtual ICollection<Unit>? Units { get; set; }
     }
     
 }

@@ -1,4 +1,5 @@
-﻿using Firm.Domain.Entities.Staff;
+﻿using Firm.Domain.Entities.Market;
+using Firm.Domain.Entities.Staff;
 using Shared.Entities;
 using Shared.Enums.Firm.Vehicle;
 
@@ -32,5 +33,7 @@ namespace Firm.Domain.Entities.Vehicle
         /// </summary>
         public Guid DriverId { get; set; }
         public virtual Person? Driver { get; set; }
+        public virtual ICollection<ContractLogVehicle>? ContractLogVehicles { get; set; }
+
     }
 }

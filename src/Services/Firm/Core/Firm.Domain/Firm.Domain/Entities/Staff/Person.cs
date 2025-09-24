@@ -1,4 +1,5 @@
 ﻿using Firm.Domain.Entities.Market;
+using Firm.Domain.Entities.Vehicle;
 using Shared.Entities;
 
 namespace Firm.Domain.Entities.Staff
@@ -33,5 +34,10 @@ namespace Firm.Domain.Entities.Staff
         /// </summary>
         public virtual Person? Parent { get; set; }
         public virtual ICollection<Contract>? Contracts { get; set; }
+        public virtual ICollection<Person>? ChildrenList { get; set; }
+        public virtual ICollection<PersonLocation>? PersonLocations { get; set; }
+        public virtual ICollection<PersonPosition>? PersonPositions { get; set; }
+        public virtual ICollection<Truck>? TruckOwners { get; set; }
+        public virtual ICollection<Truck>? TruckDrivers { get; set; } 
     }
 }

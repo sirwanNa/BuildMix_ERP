@@ -12,7 +12,7 @@ var reactAppUrl = builder.Configuration["AllowedOrigins:ReactApp"];
 builder.Services.AddOpenApi()
     .RegisterDbContext()
     .RegisterRepositories()
-    .ConfigureMediatR("Alfkanz.Application")
+    .ConfigureMediatR("Firm.Application")
     //.ConfigureAutoMapper()
     .ConfigureGlobalFilters()
     .RegisterJWTToken(builder)

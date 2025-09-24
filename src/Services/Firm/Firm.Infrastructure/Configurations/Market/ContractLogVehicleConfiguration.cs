@@ -21,7 +21,7 @@ namespace Firm.Infrastructure.Configurations.Market
                    .OnDelete(DeleteBehavior.Restrict)
                    .IsRequired();          
        
-            builder.HasIndex(clv => new { clv.ContractDetailsId,clv.TruckId });
+            builder.HasIndex(clv => new { clv.ContractDetailsId,clv.TruckId }).IsUnique();
         }
     }
 }

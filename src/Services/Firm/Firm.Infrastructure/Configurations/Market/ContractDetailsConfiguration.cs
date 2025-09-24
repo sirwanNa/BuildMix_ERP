@@ -23,7 +23,7 @@ namespace Firm.Infrastructure.Configurations.Market
                    .IsRequired();         
          
             
-            builder.HasIndex(cd => new { cd.ContractId,cd.ProductId });
+            builder.HasIndex(cd => new { cd.ContractId,cd.ProductId }).IsUnique();
         }
     }
 }

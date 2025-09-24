@@ -17,7 +17,11 @@ namespace Firm.Infrastructure.Configurations.Common
             builder.HasOne(p => p.Parent)
                    .WithMany(p=>p.Units)
                    .HasForeignKey(p => p.ParentId)
-                   .OnDelete(DeleteBehavior.Restrict); 
+                   .OnDelete(DeleteBehavior.Restrict);
+
+            builder.Property(p => p.Title)
+                .IsUnicode()
+                .HasMaxLength(50);
           
             builder.HasIndex(p => p.Title)
                    .IsUnique(); 

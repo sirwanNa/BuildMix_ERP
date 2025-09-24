@@ -14,7 +14,7 @@ namespace Firm.Infrastructure.Configurations.Market
                    .OnDelete(DeleteBehavior.Cascade) 
                    .IsRequired();
           
-            builder.HasIndex(cs => new { cs.ContractId , cs.TruckType});
+            builder.HasIndex(cs => new { cs.ContractId , cs.TruckType}).IsUnique();
         }
     }
 }

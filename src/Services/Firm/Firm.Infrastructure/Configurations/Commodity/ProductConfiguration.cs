@@ -16,7 +16,7 @@ namespace Firm.Infrastructure.Configurations.Commodity
 
             builder.Property(p => p.Title).IsRequired(true).IsUnicode(true).HasMaxLength(500);
 
-            builder.HasIndex(index => new { index.Title });
+            builder.HasIndex(index => new { index.Title }).IsUnique();
         }
     }
 }

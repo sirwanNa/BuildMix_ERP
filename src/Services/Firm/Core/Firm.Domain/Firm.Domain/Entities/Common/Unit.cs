@@ -13,17 +13,17 @@ namespace Firm.Domain.Entities.Common
         /// </summary>
         public required string Title { get; set; }
         /// <summary>
-        /// شناسه واحد والد
+        /// شناسه والد
         /// </summary>
         public Guid? ParentId { get; set; }
         /// <summary>
-        /// واحد والد
+        ///  والد
         /// </summary>
         public virtual Unit? Parent { get; set; }
         /// <summary>
-        /// ضریب تبدیل واحد
+        ///ضریب تبدیل واحد والد
         /// </summary>
-        public float Conversion { get; set; }
+        public float Rate { get; set; }
         public virtual ICollection<Product>? Products { get; set; } 
         public virtual ICollection<Unit>? Units { get; set; }
     }

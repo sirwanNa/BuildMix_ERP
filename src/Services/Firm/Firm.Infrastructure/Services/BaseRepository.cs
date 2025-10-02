@@ -1,10 +1,9 @@
 ﻿using System.Linq.Expressions;
 using Firm.Application.Interfaces.IData;
-using Firm.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Shared.Entities;
 
-namespace Firm.Infrastructure.Repositories.Common
+namespace Firm.Infrastructure.Repositories
 {
     public class BaseRepository(IUnitOfWork unitOfWork)
     {

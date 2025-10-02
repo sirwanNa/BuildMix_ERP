@@ -7,9 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Commands\" />
-    <Folder Include="DTOs\" />
+    <Folder Include="Commands\Commodity\" />
+    <Folder Include="Commands\Market\" />
+    <Folder Include="Commands\Vehicle\" />
+    <Folder Include="Commands\Staff\" />
+    <Folder Include="DTOs\Commodity\" />
+    <Folder Include="DTOs\Market\" />
+    <Folder Include="DTOs\Vehicle\" />
+    <Folder Include="DTOs\Staff\" />
     <Folder Include="Exceptions\" />
+    <Folder Include="Interfaces\IServices\Commodity\" />
+    <Folder Include="Interfaces\IServices\Market\" />
+    <Folder Include="Interfaces\IServices\Vehicle\" />
+    <Folder Include="Interfaces\IServices\Staff\" />
   </ItemGroup>
 
   <ItemGroup>

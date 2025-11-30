@@ -26,6 +26,10 @@
 
   <ItemGroup>
     <Folder Include="Migrations\" />
+    <Folder Include="Services\Commodity\" />
+    <Folder Include="Services\Market\" />
+    <Folder Include="Services\Vehicle\" />
+    <Folder Include="Services\Staff\" />
   </ItemGroup>
 
 </Project>

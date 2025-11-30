@@ -15,7 +15,6 @@
     <Folder Include="DTOs\Market\" />
     <Folder Include="DTOs\Vehicle\" />
     <Folder Include="DTOs\Staff\" />
-    <Folder Include="Exceptions\" />
     <Folder Include="Interfaces\IServices\Commodity\" />
     <Folder Include="Interfaces\IServices\Market\" />
     <Folder Include="Interfaces\IServices\Vehicle\" />

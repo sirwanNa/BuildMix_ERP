@@ -10,7 +10,7 @@ namespace Firm.Domain.Entities.Staff
     public class Person:BaseEntity
     {
         /// <summary>
-        /// نانم شرکت/نام کوچک
+        /// نام شرکت/نام کوچک
         /// </summary>
         public required string FirstName { get; set; }
         /// <summary>

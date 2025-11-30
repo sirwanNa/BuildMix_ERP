@@ -14,7 +14,7 @@ namespace Firm.Domain.Entities.Market
         /// </summary>
         public ContractType ContractType { get; set; }
         /// <summary>
-        /// تاریخ و ساعت
+        ///عقد قرارداد تاریخ و ساعت
         /// </summary>
         public DateTime Date { get; set; }
         /// <summary>
